@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1",
+        "name": "Alimento Baby",
+        "price": 35000,
+        "category": "alimentos",
+        "description": "Alimento para cachorros small.",
+        "imageUrl": "/images/alimento_baby.jpg"
+    },
+    {
+         "id": "2",
+        "name": "Alimento Mini",
+        "price": 2500,
+        "category": "alimentos",
+        "description": "Alimento para perros mini.",
+        "imageUrl": "/images/alimento_mini.jpg"
+    },
+    {
+         "id": "3",
+        "name": "Pelota tipo tenis",
+        "price": 7500,
+        "category": "juguetes",
+        "description": "Pelota tipo tenis para perros medianos.",
+        "imageUrl": "/images/pelota_02.jpg"
+    },
+    {
+         "id": "4",
+        "name": "Pelota rosada",
+        "price": 9000,
+        "category": "juguetes",
+        "description": "Pelota de goma rosada para perros grandes.",
+        "imageUrl": "/images/pelota.jpg"
+    }
+
+
+]
