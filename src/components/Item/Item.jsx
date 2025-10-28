@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "./Item.css";
+
 export const Item = ({ name, price, description, imageUrl, children }) => {
     return (
         <article className="product-item">
@@ -8,5 +10,6 @@ export const Item = ({ name, price, description, imageUrl, children }) => {
             <p>Descripcion {description}</p>
             {children}
         </article>
+        
     );    
 };

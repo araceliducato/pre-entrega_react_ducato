@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "Alimento Baby",
         "price": 35000,
         "category": "alimentos",
@@ -8,15 +8,15 @@
         "imageUrl": "/images/alimento_baby.jpg"
     },
     {
-         "id": "2",
+         "id": 2,
         "name": "Alimento Mini",
-        "price": 2500,
+        "price": 25000,
         "category": "alimentos",
         "description": "Alimento para perros mini.",
         "imageUrl": "/images/alimento_mini.jpg"
     },
     {
-         "id": "3",
+         "id": 3,
         "name": "Pelota tipo tenis",
         "price": 7500,
         "category": "juguetes",
@@ -24,7 +24,7 @@
         "imageUrl": "/images/pelota_02.jpg"
     },
     {
-         "id": "4",
+         "id": 4,
         "name": "Pelota rosada",
         "price": 9000,
         "category": "juguetes",

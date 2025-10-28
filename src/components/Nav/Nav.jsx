@@ -1,22 +1,20 @@
+import { Link } from "react-router-dom";
+
 export const Nav = () => {
     return (
         <nav>
             <ul>
                 <li>
-                    <a href="./#">Home</a>
+
+                </li>
+                
+                <li>
+                    <Link to={"/category/alimentos"}>Alimentos</Link>
                 </li>
                 <li>
-                    <a href="./#">Alimentos</a>
+                    <Link to={"/category/juguetes"}>Juguetes</Link>
                 </li>
-                <li>
-                    <a href="./#">Juguetes</a>
-                </li>
-                <li>
-                    <a href="./#">Carrito</a>
-                </li>
-                <li>
-                    <a href="./#">Contacto</a>
-                </li>
+                
             </ul>
         </nav>
     );    

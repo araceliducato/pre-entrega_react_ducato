@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { ItemDetail } from "../ItemDetail/ItemDetail";
+import { useParams } from "react-router-dom";
 
 
 export const ItemDetailContainer = () => {
     const [detail, setDetail] =useState({});
 
+    const {id} = useParams();
     useEffect(() => {
         fetch ("/data/products.json")
             .then((res) => {
@@ -15,17 +17,16 @@ export const ItemDetailContainer = () => {
                 return res.json();
             })
             .then((data) => {
-                const found = data.find( (p) => p.id == "1");
+                const found = data.find( (p) => p.id === Number(id));
                 if(found){
                     setDetail(found);   
                 } else {
                     throw new Error ("Producto no encotrado");
                 }
             })
-            .catch((err) => {
-                console.log(err);
-            });
-    }, []);
+            .catch((err) => console.log(err));
+        
+    }, [id]);
 
     return (
         <main>
